@@ -1,0 +1,55 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "build:prefix": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "publish": "gh-pages -d public --repo https://github.build.ge.com/212635452/212635452.github.build.ge.com.git --branch master",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.19",
+    "@mdx-js/react": "^1.6.19",
+    "acorn": "^6.4.2",
+    "gatsby": "^2.24.80",
+    "gatsby-plugin-catch-links": "^2.3.15",
+    "gatsby-plugin-mdx": "^1.2.50",
+    "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-remark-autolink-headers": "^2.6.0",
+    "gatsby-remark-double-brackets-link": "^0.1.7",
+    "gatsby-remark-images": "^3.5.1",
+    "gatsby-remark-mermaid": "^2.1.0",
+    "gatsby-remark-prismjs": "^3.9.0",
+    "gatsby-source-filesystem": "^2.3.35",
+    "gatsby-transformer-markdown-references": "^0.1.5",
+    "gatsby-transformer-remark": "^2.8.46",
+    "gatsby-transformer-sharp": "^2.6.0",
+    "prismjs": "^1.22.0",
+    "puppeteer": "^5.3.1",
+    "ramda": "^0.27.1",
+    "react": "^16.12.0",
+    "react-data-table-component": "^6.11.6",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.2.1",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "prettier": "2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
